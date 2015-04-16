@@ -1,4 +1,9 @@
 var bkg = chrome.extension.getBackgroundPage();
+var alt = "";
+
+var storeAlt = function(e) {
+    alt = e.alt;
+};
 
 var copyToClipBoard = function(text) {
     var input = document.createElement('textarea');
@@ -23,15 +28,16 @@ var clickHandler = function(e) {
     if (e.selectionText) {
         text = e.selectionText;
     }
+
     if (e.mediaType==="image") {
-        text = e.alt;
+        text = alt;
     }
 
     bkg.console.log(text);
     copyToClipBoard(text);
 };
 
-chrome.extension.onRequest.addListener(clickHandler);
+chrome.extension.onRequest.addListener(storeAlt);
 
 chrome.contextMenus.create({
     "title": "LaTex2Word-Equation",

@@ -1,6 +1,6 @@
 document.addEventListener("contextmenu", function (e) {
     var elem = e.srcElement;
-    console.log(elem);
+    // console.log(elem);
     if (elem instanceof HTMLImageElement) {
         var img = {
             src: elem.src,
