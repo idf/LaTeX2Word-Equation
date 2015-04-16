@@ -10,10 +10,9 @@
   "manifest_version": 2,
   "permissions": [
     "tabs",
-    "contextMenus",
-    "http://www.google.com/buzz/api/buzzThis/buzzCounter",
-    "http://cdn.mathjax.org/mathjax/latest/test/sample-dynamic-2.html"
+    "contextMenus"
   ],
+  "content_security_policy": "script-src 'self' https://cdn.mathjax.org; object-src 'self'",
   "content_scripts": [{
     "matches": ["*://*.wikipedia.org/*"],
     "js": ["content_script.js"]
@@ -25,7 +24,7 @@
   },
   "description": "Copy LaTex Equation to Word!",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["jquery.js", "background.js"]
   }
 
 }
