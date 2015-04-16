@@ -1,5 +1,6 @@
 {
-  "name": "LaTex2Word-Equation",
+  "name": "LaTeX2Word-Equation",
+  "short_name": "Copy LaTeX Equation as Word Equation",
   "icons": {
     "16" : "fluidicon.png",
     "24" : "fluidicon.png",
@@ -20,7 +21,7 @@
   ],
   "browser_action": {
     "default_icon" : "fluidicon.png",
-    "default_title" : "LaTex2Word-Equation"
+    "default_title" : "LaTeX2Word-Equation"
   },
   "description": "Copy LaTex Equation to Word!",
   "background": {

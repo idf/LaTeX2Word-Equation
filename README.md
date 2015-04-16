@@ -1,6 +1,6 @@
-# LaTex2Word-Equation
-Copy LaTex Equation as Word Equation  
-Chrome Extension  
+# LaTeX2Word-Equation
+Copy LaTeX Equations as Word Equations  
+Chrome Extension: https://chrome.google.com/webstore/detail/latex2word-equation/oicdodhdflfciojjhbhnhpeenbpfipfg
 ![](/fluidicon.png)  
 Right click:  
 ![](/img/landing.jpg)  
@@ -8,13 +8,11 @@ Right click:
 # Demo
 ## Copy equations from Wikipedia
 ![](/img/demo_1_compressed.gif)  
-(click to view HD)
 
-## Copy equation from raw LaTeX equation
-copy `\alpha \beta \gamma` to Word as the equation  
-![](/img/demo_2_compressed.gif)  
-(click to view HD)  
+## Copy equations from raw LaTeX equation
+copy raw LaTex code `\alpha \beta \gamma` to Word as the equation  
+![](/img/demo_2_compressed.gif)   
 
 # References
 * [MathJax](https://www.mathjax.org/)
-* [Embed Latex Math Equation](http://tex.stackexchange.com/questions/25223/embed-latex-math-equations-into-microsoft-word)
+* [Embed LaTeX Math Equation](http://tex.stackexchange.com/questions/25223/embed-latex-math-equations-into-microsoft-word)
