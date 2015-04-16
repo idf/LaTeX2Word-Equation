@@ -41,8 +41,8 @@ var JaxToML = {
                 });
             }
             $(tempDiv).remove();
-            AjaxText = AjaxText.replace(/\(/g,""); //notice this escape character for ( - i.e it has to be \( , know why it is beacuse JS will treat ) or ( as end/begin of function as there are no quotes here.
-            AjaxText = AjaxText.replace(/\)/g,""); //notice this escape character for ) - i.e it has to be \)
+            //AjaxText = AjaxText.replace(/\(/g,""); //notice this escape character for ( - i.e it has to be \( , know why it is beacuse JS will treat ) or ( as end/begin of function as there are no quotes here.
+            //AjaxText = AjaxText.replace(/\)/g,""); //notice this escape character for ) - i.e it has to be \)
             AjaxText = AjaxText.replace(/\\/g,"");
             callback(AjaxText);
         });
@@ -58,6 +58,8 @@ var clickHandler = function(e) {
     if (e.mediaType==="image") {
         text = alt;
     }
+    //text = text.replace("(", "\\(");
+    //text = text.replace(")", "\\)");
     JaxToML.convert("$$\n"+text+"\n$$", function(mml) {
         mml = mml.replace(/^\$+|\$+$/g, '');
         copyToClipBoard(mml);

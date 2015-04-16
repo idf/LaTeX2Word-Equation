@@ -7,7 +7,7 @@
     "32" : "fluidicon.png",
     "128": "fluidicon.png"
   },
-  "version": "0.0.0.1",
+  "version": "0.0.0.3",
   "manifest_version": 2,
   "permissions": [
     "tabs",
