@@ -15,7 +15,7 @@
   ],
   "content_security_policy": "script-src 'self' https://cdn.mathjax.org; object-src 'self'",
   "content_scripts": [{
-    "matches": ["*://*.wikipedia.org/*"],
+    "matches": ["<all_urls>"],
     "js": ["content_script.js"]
     }
   ],
