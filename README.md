@@ -1,6 +1,8 @@
-# LaTex2Word
-Copy LaTex Equation as Word Equation  
+# LaTex2Word-Equation
+Copy LaTex Equation as Word Equation
 Chrome Extension
+![](/fluidicon.png)
+![](/img/landing.jpg)  
 
 # Demo
 ## Copy equations from Wikipedia
