@@ -1,0 +1,31 @@
+{
+  "name": "LaTex2Word-Equation",
+  "icons": {
+    "16" : "fluidicon.png",
+    "24" : "fluidicon.png",
+    "32" : "fluidicon.png",
+    "128": "fluidicon.png"
+  },
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "http://www.google.com/buzz/api/buzzThis/buzzCounter",
+    "http://cdn.mathjax.org/mathjax/latest/test/sample-dynamic-2.html"
+  ],
+  "content_scripts": [{
+    "matches": ["*://*.wikipedia.org/*"],
+    "js": ["content_script.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon" : "fluidicon.png",
+    "default_title" : "LaTex2Word-Equation"
+  },
+  "description": "Copy LaTex Equation to Word!",
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
