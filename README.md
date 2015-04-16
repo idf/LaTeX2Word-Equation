@@ -1,14 +1,15 @@
 # LaTex2Word
-Copy LaTex Equation as Word Equation
-Chrome Extension  
+Copy LaTex Equation as Word Equation  
+Chrome Extension
 
 # Demo
-Copy equation from Wikipedia
+## Copy equations from Wikipedia
 ![](/img/demo_1_compressed.gif)
-Copy equation from raw LaTeX equation
+
+## Copy equation from raw LaTeX equation
+copy `\alpha \beta \gamma` to Word as the equation
 ![](/img/demo_2_compressed.gif)
 
-# Design Flow
-Copy LaTex -> MathML Code -> Word
+# References
 * [MathJax](https://www.mathjax.org/)
-* [ref](http://tex.stackexchange.com/questions/25223/embed-latex-math-equations-into-microsoft-word)
+* [Embed Latex Math Equation](http://tex.stackexchange.com/questions/25223/embed-latex-math-equations-into-microsoft-word)
