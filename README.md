@@ -9,8 +9,9 @@ Right click:
 ## Copy equations from Wikipedia
 ![](/img/demo_1_compressed.gif)  
 
-## Copy equations from raw LaTeX equation
-copy raw LaTex code `\alpha \beta \gamma` to Word as the equation  
+## Copy equations from raw LaTeX math code
+copy raw LaTex math code `\alpha \beta \gamma` to Word as the equation  
+  
 ![](/img/demo_2_compressed.gif)   
 
 # References
