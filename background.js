@@ -7,6 +7,10 @@ var storeAlt = function(e) {
     alt = e.alt;
 };
 
+var strip_format = function(text) {
+    return text.replace(/^\$+|\$+$/g, '');
+};
+
 var copyToClipBoard = function(text) {
     var input = document.createElement('textarea');
     document.body.appendChild(input);
@@ -60,8 +64,9 @@ var clickHandler = function(e) {
     }
     //text = text.replace("(", "\\(");
     //text = text.replace(")", "\\)");
+    text = strip_format(text);
     JaxToML.convert("$$\n"+text+"\n$$", function(mml) {
-        mml = mml.replace(/^\$+|\$+$/g, '');
+        mml = strip_format(mml);
         copyToClipBoard(mml);
     });
 };
