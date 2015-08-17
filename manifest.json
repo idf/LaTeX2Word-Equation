@@ -23,7 +23,7 @@
     "default_icon" : "fluidicon.png",
     "default_title" : "LaTeX2Word-Equation"
   },
-  "description": "Copy LaTex Equation to Word!",
+  "description": "Copy LaTeX Equation to Word!",
   "background": {
     "scripts": ["jquery.js", "background.js"]
   }
