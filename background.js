@@ -1,7 +1,7 @@
 var bkg = chrome.extension.getBackgroundPage();
 var alt = "";
 // access MathJax through CDN
-$('script').append('<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>');
+$('script').append('<script type="text/javascript" src="MathJax/MathJax.js?config=TeX-AMS_HTML"></script>');
 
 var storeAlt = function(e) {
     alt = e.alt;
