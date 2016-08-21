@@ -1,6 +1,6 @@
 # LaTeX2Word-Equation
 Copy LaTeX Equations as Word Equations  
-Chrome Extension in Store: [Updating...]
+Chrome Extension in the [Store](https://chrome.google.com/webstore/detail/latex2word-equation/oicdodhdflfciojjhbhnhpeenbpfipfg)
 ![](/fluidicon.png)  
 Right click:  
 ![](/img/landing.jpg)  
